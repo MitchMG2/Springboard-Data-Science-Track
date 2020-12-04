@@ -1,0 +1,49 @@
+#view data properties
+#matplotlib plot combine data, use DataVis Datacamp as reference
+#plot percent change
+#only one index provides volume data, drop?
+#reference EDA documents
+#research EDA for time series data questions
+#explore days which all four indexes present
+#				days only three present
+#				two and one
+#				initialize empty pandas dataframes
+#				populate based on condition date has one two three four rows
+#				use for loop
+#				if count date instance == 1/2/3/4
+#								populate corresponding dataframe
+#				reference prior unit 11 projects for population reference
+#plot percentages of prior findings
+#check for breaks between days for all exchange data
+#check for duplicates of data
+
+#pandas rolling to create moving averages
+#plot against the values
+#visualizations of roll microscale (one month?) microtrends
+#refer to plotting datacamp
+#xticks???
+#snapshot single month
+#filter by date = year + month + day wildcard?
+#do two snapshot months
+#check all large and small header/labels for dividing notebook
+#yearly boxplot? two years per box for 10 boxes?
+#insert comments
+#after this submit
+#merge fourday and threeday?
+
+#kurtosis distribution pct change
+#skewness
+#get log(pct change) plot those
+#check skew for log
+
+#t test 
+#pivot fouir columns four indeces correlate
+
+#all four dates only
+
+
+bootstrapping not enougn data
+create more data copy data at radnom
+only on training set
+ML bootstrapping
+bootstap sampling
