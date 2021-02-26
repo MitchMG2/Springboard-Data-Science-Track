@@ -42,3 +42,6 @@ regression if goals scored based on team attriutes
 Split notebook into sections
 save tables into csv after all
 
+New Wrangling Notebook
+Preprocessing Notebook
+Modeling Notebook
