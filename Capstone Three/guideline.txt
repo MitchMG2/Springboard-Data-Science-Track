@@ -1,0 +1,44 @@
+HOW TO DO SQL
+do all functions in sql or export values and do calculations using python/pandas/nump
+
+
+
+sql join query extract values
+join tables
+
+have model predict
+
+LR might be ruseless
+random forest???
+anything non numeric needs to be encoded
+
+make it into one dataframe
+
+sql query to join all tables together
+
+summary stats such as max, avg, min
+
+duplicate rows
+
+consider sorting by winner
+
+classifcation problem if win loss
+
+ad match winner column
+use as y
+remove goals scored columns
+
+knn rff logistic rgression xgboost classifier svc
+
+metrtics: accuracy, precision, recall, f1 score, confusion matrix
+
+histgrams (continuous stuff)
+bar for categorical
+
+AUC ROC curve
+regression if goals scored based on team attriutes
+
+
+Split notebook into sections
+save tables into csv after all
+
