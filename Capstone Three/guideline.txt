@@ -24,24 +24,32 @@ consider sorting by winner
 
 classifcation problem if win loss
 
-ad match winner column
-use as y
-remove goals scored columns
+    ad match winner column
+    use as y
+    remove goals scored columns
+    
+    knn rff logistic rgression xgboost classifier svc 
 
-knn rff logistic rgression xgboost classifier svc
+    metrtics: accuracy, precision, recall, f1 score, confusion matrix
 
-metrtics: accuracy, precision, recall, f1 score, confusion matrix
+    histgrams (continuous stuff)
+    bar for categorical
 
-histgrams (continuous stuff)
-bar for categorical
-
-AUC ROC curve
+    AUC ROC curve
 regression if goals scored based on team attriutes
 
 
-Split notebook into sections
-save tables into csv after all
+remove id columns, strings with names, frature engineer rday of week, encode if categorical like country of origin
 
+
+Split notebook into sections
+SQL exploration
+THEN 
+save tables into csv after all
+NEW NOTEBOOK
 New Wrangling Notebook
 Preprocessing Notebook
 Modeling Notebook
+
+
+
