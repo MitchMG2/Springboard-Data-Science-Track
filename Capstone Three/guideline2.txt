@@ -1,0 +1,22 @@
+pca does not correspond to columns, combinations of features
+
+###reducing features
+    actually reduce features instead of pca
+    ###guided capstone select k best and feature importances
+    ###instead of pca
+    ###figure out how many best features
+    ###look at ski resort
+get rid of pca
+
+select k best to figure out which best features
+trim dataset with those features, then use that for models
+
+confusion matrix 
+confusion matrix
+confusion matrix
+svc is a classifier
+
+possibly parameter for just logistic regression or (specific classifier)
+metrics confusion matrix
+
+classification metric (accuracy (doesnt work well with unbalanced y distribution), )
