@@ -20,3 +20,12 @@ possibly parameter for just logistic regression or (specific classifier)
 metrics confusion matrix
 
 classification metric (accuracy (doesnt work well with unbalanced y distribution), )
+
+make function that returns the pipeline pass the model as a parameter
+
+Random forest feature improtances
+redo grid search with random forest
+
+plt it
+
+
