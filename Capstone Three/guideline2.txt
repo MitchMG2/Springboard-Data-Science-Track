@@ -28,4 +28,46 @@ redo grid search with random forest
 
 plt it
 
+tune random forest, possibly overfit
+roc vurve use metric
 
+check roc works with multiclass classification
+report and documentation almsot same, check reubric just in case
+conclusion, this is the model, and (light) cleaning i had to do to get the data to feed model
+Monday 
+
+accuracy level, conclusion and discussion
+sns heatmap
+
+statistical principals are embedded in the mdoel
+exploratory possibly uses statistical stuff like p values
+
+t tests as mini model occasionally comes up
+
+DELETE INITIAL MODEL PLOTS, REWORK WITH CONFUSION MATRIX AND NP UNIQUE VALUE COUNTS OF PREDICTIONS
+
+
+Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('selectkbest', SelectKBest(k=44)),
+                ('logisticregression',
+                 LogisticRegression(max_iter=50, n_jobs=-1))]) 0.4928559019410813
+Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('selectkbest', SelectKBest(k=9)),
+                ('kneighborsclassifier',
+                 KNeighborsClassifier(leaf_size=5, n_jobs=-1,
+                                      n_neighbors=100))]) 0.49435914188634245
+Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('selectkbest', SelectKBest(k=4)),
+                ('randomforestclassifier',
+                 RandomForestClassifier(max_depth=5, max_leaf_nodes=20,
+                                        n_estimators=20, n_jobs=-1))]) 0.4986564053489831
+Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('selectkbest', SelectKBest(k=60)),
+                ('ridgeclassifier', RidgeClassifier())]) 0.49382243126046477
+Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('selectkbest', SelectKBest(k=42)), ('svc', SVC())]) 0.5056408003966314
